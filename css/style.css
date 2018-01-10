@@ -1,0 +1,80 @@
+body{
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    line-height:1.6;
+    font-weight:normal;
+    color:#FFFFFF;
+    background-color: black;
+}
+a{
+    color:#2D9CDB;
+    text-decoration: none;
+}
+a:hover{
+    color:#CCCCCC;
+}
+
+.top{
+    width: 770px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.container1{
+    display: flex;
+    justify-content: space-between
+}
+
+.profile{
+    width: 330px;
+    padding: 10px;
+    text-align: center;
+}
+.works{
+    width: 330px;
+    padding: 10px;
+    text-align: left;
+}
+h2{
+    color:#7fffd4;
+}
+
+/*header{
+    width:950px;
+    height:40px;
+    background-color: azure;
+    margin-top:40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1{
+    font-size:36px;
+}
+nav{
+    width:950px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+nav a{
+    color:#333333;
+}
+nav a:hover{
+    color:#CCCCCC
+}
+
+
+.main-visual{
+    width:950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+*/
+
+
+

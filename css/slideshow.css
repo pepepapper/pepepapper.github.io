@@ -1,0 +1,77 @@
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+#container{
+    display: block;
+ margin-left: auto;
+ margin-right: auto;
+    width: 500px;
+    margin: 50px;
+    
+}
+#slideshow{
+    position: relative;
+    width: 360px;
+    height: 270px;
+}
+
+#slideshow li{
+    position: absolute;
+    width: 360px;
+    height: 270px;
+    opacity: 0;
+}
+
+#circle{
+    width: 500px;
+    overflow: hidden;
+    margin: 20px;
+}
+#circle li{
+    float: left;
+    background-color: #CCC;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 2;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#circle li.select{
+    background-color: #FFCC00;
+}
+#ar{
+    overflow: hidden;
+    margin: 20px;
+}
+#ar li{
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.list{
+    width:200px;
+    float:left;
+}
+.pict{
+    float:right;
+}
